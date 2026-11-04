@@ -1,0 +1,2822 @@
+{
+  "Staff": [
+    {
+      "StaffId": 1,
+      "DepartmentId": 1,
+      "StaffCode": "ST001",
+      "FullName": "Demo Staff 01",
+      "JobTitle": "Doctor",
+      "Email": "staff1@example.com"
+    },
+    {
+      "StaffId": 2,
+      "DepartmentId": 1,
+      "StaffCode": "ST002",
+      "FullName": "Demo Staff 02",
+      "JobTitle": "Nurse",
+      "Email": "staff2@example.com"
+    },
+    {
+      "StaffId": 3,
+      "DepartmentId": 2,
+      "StaffCode": "ST003",
+      "FullName": "Demo Staff 03",
+      "JobTitle": "Doctor",
+      "Email": "staff3@example.com"
+    },
+    {
+      "StaffId": 4,
+      "DepartmentId": 2,
+      "StaffCode": "ST004",
+      "FullName": "Demo Staff 04",
+      "JobTitle": "Nurse",
+      "Email": "staff4@example.com"
+    },
+    {
+      "StaffId": 5,
+      "DepartmentId": 3,
+      "StaffCode": "ST005",
+      "FullName": "Demo Staff 05",
+      "JobTitle": "Doctor",
+      "Email": "staff5@example.com"
+    },
+    {
+      "StaffId": 6,
+      "DepartmentId": 3,
+      "StaffCode": "ST006",
+      "FullName": "Demo Staff 06",
+      "JobTitle": "Nurse",
+      "Email": "staff6@example.com"
+    },
+    {
+      "StaffId": 7,
+      "DepartmentId": 4,
+      "StaffCode": "ST007",
+      "FullName": "Demo Staff 07",
+      "JobTitle": "Doctor",
+      "Email": "staff7@example.com"
+    },
+    {
+      "StaffId": 8,
+      "DepartmentId": 4,
+      "StaffCode": "ST008",
+      "FullName": "Demo Staff 08",
+      "JobTitle": "Nurse",
+      "Email": "staff8@example.com"
+    },
+    {
+      "StaffId": 9,
+      "DepartmentId": 5,
+      "StaffCode": "ST009",
+      "FullName": "Demo Staff 09",
+      "JobTitle": "Doctor",
+      "Email": "staff9@example.com"
+    },
+    {
+      "StaffId": 10,
+      "DepartmentId": 5,
+      "StaffCode": "ST010",
+      "FullName": "Demo Staff 10",
+      "JobTitle": "Nurse",
+      "Email": "staff10@example.com"
+    }
+  ],
+  "Medications": [
+    {
+      "MedicationId": 1,
+      "MedicationCode": "MED001",
+      "MedicationName": "Demo Medication 01",
+      "Strength": "Simulation only",
+      "Unit": "Unit"
+    },
+    {
+      "MedicationId": 2,
+      "MedicationCode": "MED002",
+      "MedicationName": "Demo Medication 02",
+      "Strength": "Simulation only",
+      "Unit": "Unit"
+    },
+    {
+      "MedicationId": 3,
+      "MedicationCode": "MED003",
+      "MedicationName": "Demo Medication 03",
+      "Strength": "Simulation only",
+      "Unit": "Unit"
+    },
+    {
+      "MedicationId": 4,
+      "MedicationCode": "MED004",
+      "MedicationName": "Demo Medication 04",
+      "Strength": "Simulation only",
+      "Unit": "Unit"
+    },
+    {
+      "MedicationId": 5,
+      "MedicationCode": "MED005",
+      "MedicationName": "Demo Medication 05",
+      "Strength": "Simulation only",
+      "Unit": "Unit"
+    },
+    {
+      "MedicationId": 6,
+      "MedicationCode": "MED006",
+      "MedicationName": "Demo Medication 06",
+      "Strength": "Simulation only",
+      "Unit": "Unit"
+    },
+    {
+      "MedicationId": 7,
+      "MedicationCode": "MED007",
+      "MedicationName": "Demo Medication 07",
+      "Strength": "Simulation only",
+      "Unit": "Unit"
+    },
+    {
+      "MedicationId": 8,
+      "MedicationCode": "MED008",
+      "MedicationName": "Demo Medication 08",
+      "Strength": "Simulation only",
+      "Unit": "Unit"
+    },
+    {
+      "MedicationId": 9,
+      "MedicationCode": "MED009",
+      "MedicationName": "Demo Medication 09",
+      "Strength": "Simulation only",
+      "Unit": "Unit"
+    },
+    {
+      "MedicationId": 10,
+      "MedicationCode": "MED010",
+      "MedicationName": "Demo Medication 10",
+      "Strength": "Simulation only",
+      "Unit": "Unit"
+    }
+  ],
+  "UserDepartments": [
+    {
+      "DatabaseUser": "doctor_im",
+      "DepartmentId": 1
+    },
+    {
+      "DatabaseUser": "doctor_sur",
+      "DepartmentId": 2
+    },
+    {
+      "DatabaseUser": "doctor_ped",
+      "DepartmentId": 3
+    },
+    {
+      "DatabaseUser": "doctor_obg",
+      "DepartmentId": 4
+    },
+    {
+      "DatabaseUser": "doctor_car",
+      "DepartmentId": 5
+    }
+  ],
+  "Patients": [
+    {
+      "PatientCode": "PT0001",
+      "FullName": "Demo Patient 001",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0001",
+      "Phone": "DEMO-PHONE-001",
+      "Address": "1 Example Street",
+      "InsuranceNumber": "DEMO-INS-0001",
+      "EmergencyContact": "Demo Contact 001"
+    },
+    {
+      "PatientCode": "PT0002",
+      "FullName": "Demo Patient 002",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0002",
+      "Phone": "DEMO-PHONE-002",
+      "Address": "2 Example Street",
+      "InsuranceNumber": "DEMO-INS-0002",
+      "EmergencyContact": "Demo Contact 002"
+    },
+    {
+      "PatientCode": "PT0003",
+      "FullName": "Demo Patient 003",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0003",
+      "Phone": "DEMO-PHONE-003",
+      "Address": "3 Example Street",
+      "InsuranceNumber": "DEMO-INS-0003",
+      "EmergencyContact": "Demo Contact 003"
+    },
+    {
+      "PatientCode": "PT0004",
+      "FullName": "Demo Patient 004",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0004",
+      "Phone": "DEMO-PHONE-004",
+      "Address": "4 Example Street",
+      "InsuranceNumber": "DEMO-INS-0004",
+      "EmergencyContact": "Demo Contact 004"
+    },
+    {
+      "PatientCode": "PT0005",
+      "FullName": "Demo Patient 005",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0005",
+      "Phone": "DEMO-PHONE-005",
+      "Address": "5 Example Street",
+      "InsuranceNumber": "DEMO-INS-0005",
+      "EmergencyContact": "Demo Contact 005"
+    },
+    {
+      "PatientCode": "PT0006",
+      "FullName": "Demo Patient 006",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0006",
+      "Phone": "DEMO-PHONE-006",
+      "Address": "6 Example Street",
+      "InsuranceNumber": "DEMO-INS-0006",
+      "EmergencyContact": "Demo Contact 006"
+    },
+    {
+      "PatientCode": "PT0007",
+      "FullName": "Demo Patient 007",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0007",
+      "Phone": "DEMO-PHONE-007",
+      "Address": "7 Example Street",
+      "InsuranceNumber": "DEMO-INS-0007",
+      "EmergencyContact": "Demo Contact 007"
+    },
+    {
+      "PatientCode": "PT0008",
+      "FullName": "Demo Patient 008",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0008",
+      "Phone": "DEMO-PHONE-008",
+      "Address": "8 Example Street",
+      "InsuranceNumber": "DEMO-INS-0008",
+      "EmergencyContact": "Demo Contact 008"
+    },
+    {
+      "PatientCode": "PT0009",
+      "FullName": "Demo Patient 009",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0009",
+      "Phone": "DEMO-PHONE-009",
+      "Address": "9 Example Street",
+      "InsuranceNumber": "DEMO-INS-0009",
+      "EmergencyContact": "Demo Contact 009"
+    },
+    {
+      "PatientCode": "PT0010",
+      "FullName": "Demo Patient 010",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0010",
+      "Phone": "DEMO-PHONE-010",
+      "Address": "10 Example Street",
+      "InsuranceNumber": "DEMO-INS-0010",
+      "EmergencyContact": "Demo Contact 010"
+    },
+    {
+      "PatientCode": "PT0011",
+      "FullName": "Demo Patient 011",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0011",
+      "Phone": "DEMO-PHONE-011",
+      "Address": "11 Example Street",
+      "InsuranceNumber": "DEMO-INS-0011",
+      "EmergencyContact": "Demo Contact 011"
+    },
+    {
+      "PatientCode": "PT0012",
+      "FullName": "Demo Patient 012",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0012",
+      "Phone": "DEMO-PHONE-012",
+      "Address": "12 Example Street",
+      "InsuranceNumber": "DEMO-INS-0012",
+      "EmergencyContact": "Demo Contact 012"
+    },
+    {
+      "PatientCode": "PT0013",
+      "FullName": "Demo Patient 013",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0013",
+      "Phone": "DEMO-PHONE-013",
+      "Address": "13 Example Street",
+      "InsuranceNumber": "DEMO-INS-0013",
+      "EmergencyContact": "Demo Contact 013"
+    },
+    {
+      "PatientCode": "PT0014",
+      "FullName": "Demo Patient 014",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0014",
+      "Phone": "DEMO-PHONE-014",
+      "Address": "14 Example Street",
+      "InsuranceNumber": "DEMO-INS-0014",
+      "EmergencyContact": "Demo Contact 014"
+    },
+    {
+      "PatientCode": "PT0015",
+      "FullName": "Demo Patient 015",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0015",
+      "Phone": "DEMO-PHONE-015",
+      "Address": "15 Example Street",
+      "InsuranceNumber": "DEMO-INS-0015",
+      "EmergencyContact": "Demo Contact 015"
+    },
+    {
+      "PatientCode": "PT0016",
+      "FullName": "Demo Patient 016",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0016",
+      "Phone": "DEMO-PHONE-016",
+      "Address": "16 Example Street",
+      "InsuranceNumber": "DEMO-INS-0016",
+      "EmergencyContact": "Demo Contact 016"
+    },
+    {
+      "PatientCode": "PT0017",
+      "FullName": "Demo Patient 017",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0017",
+      "Phone": "DEMO-PHONE-017",
+      "Address": "17 Example Street",
+      "InsuranceNumber": "DEMO-INS-0017",
+      "EmergencyContact": "Demo Contact 017"
+    },
+    {
+      "PatientCode": "PT0018",
+      "FullName": "Demo Patient 018",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0018",
+      "Phone": "DEMO-PHONE-018",
+      "Address": "18 Example Street",
+      "InsuranceNumber": "DEMO-INS-0018",
+      "EmergencyContact": "Demo Contact 018"
+    },
+    {
+      "PatientCode": "PT0019",
+      "FullName": "Demo Patient 019",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0019",
+      "Phone": "DEMO-PHONE-019",
+      "Address": "19 Example Street",
+      "InsuranceNumber": "DEMO-INS-0019",
+      "EmergencyContact": "Demo Contact 019"
+    },
+    {
+      "PatientCode": "PT0020",
+      "FullName": "Demo Patient 020",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0020",
+      "Phone": "DEMO-PHONE-020",
+      "Address": "20 Example Street",
+      "InsuranceNumber": "DEMO-INS-0020",
+      "EmergencyContact": "Demo Contact 020"
+    },
+    {
+      "PatientCode": "PT0021",
+      "FullName": "Demo Patient 021",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0021",
+      "Phone": "DEMO-PHONE-021",
+      "Address": "21 Example Street",
+      "InsuranceNumber": "DEMO-INS-0021",
+      "EmergencyContact": "Demo Contact 021"
+    },
+    {
+      "PatientCode": "PT0022",
+      "FullName": "Demo Patient 022",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0022",
+      "Phone": "DEMO-PHONE-022",
+      "Address": "22 Example Street",
+      "InsuranceNumber": "DEMO-INS-0022",
+      "EmergencyContact": "Demo Contact 022"
+    },
+    {
+      "PatientCode": "PT0023",
+      "FullName": "Demo Patient 023",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0023",
+      "Phone": "DEMO-PHONE-023",
+      "Address": "23 Example Street",
+      "InsuranceNumber": "DEMO-INS-0023",
+      "EmergencyContact": "Demo Contact 023"
+    },
+    {
+      "PatientCode": "PT0024",
+      "FullName": "Demo Patient 024",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0024",
+      "Phone": "DEMO-PHONE-024",
+      "Address": "24 Example Street",
+      "InsuranceNumber": "DEMO-INS-0024",
+      "EmergencyContact": "Demo Contact 024"
+    },
+    {
+      "PatientCode": "PT0025",
+      "FullName": "Demo Patient 025",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0025",
+      "Phone": "DEMO-PHONE-025",
+      "Address": "25 Example Street",
+      "InsuranceNumber": "DEMO-INS-0025",
+      "EmergencyContact": "Demo Contact 025"
+    },
+    {
+      "PatientCode": "PT0026",
+      "FullName": "Demo Patient 026",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0026",
+      "Phone": "DEMO-PHONE-026",
+      "Address": "26 Example Street",
+      "InsuranceNumber": "DEMO-INS-0026",
+      "EmergencyContact": "Demo Contact 026"
+    },
+    {
+      "PatientCode": "PT0027",
+      "FullName": "Demo Patient 027",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0027",
+      "Phone": "DEMO-PHONE-027",
+      "Address": "27 Example Street",
+      "InsuranceNumber": "DEMO-INS-0027",
+      "EmergencyContact": "Demo Contact 027"
+    },
+    {
+      "PatientCode": "PT0028",
+      "FullName": "Demo Patient 028",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0028",
+      "Phone": "DEMO-PHONE-028",
+      "Address": "28 Example Street",
+      "InsuranceNumber": "DEMO-INS-0028",
+      "EmergencyContact": "Demo Contact 028"
+    },
+    {
+      "PatientCode": "PT0029",
+      "FullName": "Demo Patient 029",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0029",
+      "Phone": "DEMO-PHONE-029",
+      "Address": "29 Example Street",
+      "InsuranceNumber": "DEMO-INS-0029",
+      "EmergencyContact": "Demo Contact 029"
+    },
+    {
+      "PatientCode": "PT0030",
+      "FullName": "Demo Patient 030",
+      "DateOfBirth": "1995-01-15",
+      "Gender": "Unspecified",
+      "NationalId": "DEMO-ID-0030",
+      "Phone": "DEMO-PHONE-030",
+      "Address": "30 Example Street",
+      "InsuranceNumber": "DEMO-INS-0030",
+      "EmergencyContact": "Demo Contact 030"
+    }
+  ],
+  "Encounters": [
+    {
+      "PatientId": 1,
+      "DepartmentId": 1,
+      "DoctorId": 1,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 2,
+      "DepartmentId": 2,
+      "DoctorId": 3,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 3,
+      "DepartmentId": 3,
+      "DoctorId": 5,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 4,
+      "DepartmentId": 4,
+      "DoctorId": 7,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 5,
+      "DepartmentId": 5,
+      "DoctorId": 9,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 6,
+      "DepartmentId": 1,
+      "DoctorId": 1,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 7,
+      "DepartmentId": 2,
+      "DoctorId": 3,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 8,
+      "DepartmentId": 3,
+      "DoctorId": 5,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 9,
+      "DepartmentId": 4,
+      "DoctorId": 7,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 10,
+      "DepartmentId": 5,
+      "DoctorId": 9,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 11,
+      "DepartmentId": 1,
+      "DoctorId": 1,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 12,
+      "DepartmentId": 2,
+      "DoctorId": 3,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 13,
+      "DepartmentId": 3,
+      "DoctorId": 5,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 14,
+      "DepartmentId": 4,
+      "DoctorId": 7,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 15,
+      "DepartmentId": 5,
+      "DoctorId": 9,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 16,
+      "DepartmentId": 1,
+      "DoctorId": 1,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 17,
+      "DepartmentId": 2,
+      "DoctorId": 3,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 18,
+      "DepartmentId": 3,
+      "DoctorId": 5,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 19,
+      "DepartmentId": 4,
+      "DoctorId": 7,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 20,
+      "DepartmentId": 5,
+      "DoctorId": 9,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 21,
+      "DepartmentId": 1,
+      "DoctorId": 1,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 22,
+      "DepartmentId": 2,
+      "DoctorId": 3,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 23,
+      "DepartmentId": 3,
+      "DoctorId": 5,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 24,
+      "DepartmentId": 4,
+      "DoctorId": 7,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 25,
+      "DepartmentId": 5,
+      "DoctorId": 9,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 26,
+      "DepartmentId": 1,
+      "DoctorId": 1,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 27,
+      "DepartmentId": 2,
+      "DoctorId": 3,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 28,
+      "DepartmentId": 3,
+      "DoctorId": 5,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 29,
+      "DepartmentId": 4,
+      "DoctorId": 7,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 30,
+      "DepartmentId": 5,
+      "DoctorId": 9,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 1,
+      "DepartmentId": 2,
+      "DoctorId": 3,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 2,
+      "DepartmentId": 3,
+      "DoctorId": 5,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 3,
+      "DepartmentId": 4,
+      "DoctorId": 7,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 4,
+      "DepartmentId": 5,
+      "DoctorId": 9,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 5,
+      "DepartmentId": 1,
+      "DoctorId": 1,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 6,
+      "DepartmentId": 2,
+      "DoctorId": 3,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 7,
+      "DepartmentId": 3,
+      "DoctorId": 5,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 8,
+      "DepartmentId": 4,
+      "DoctorId": 7,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 9,
+      "DepartmentId": 5,
+      "DoctorId": 9,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 10,
+      "DepartmentId": 1,
+      "DoctorId": 1,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 11,
+      "DepartmentId": 2,
+      "DoctorId": 3,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 12,
+      "DepartmentId": 3,
+      "DoctorId": 5,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 13,
+      "DepartmentId": 4,
+      "DoctorId": 7,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 14,
+      "DepartmentId": 5,
+      "DoctorId": 9,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 15,
+      "DepartmentId": 1,
+      "DoctorId": 1,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 16,
+      "DepartmentId": 2,
+      "DoctorId": 3,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 17,
+      "DepartmentId": 3,
+      "DoctorId": 5,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 18,
+      "DepartmentId": 4,
+      "DoctorId": 7,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 19,
+      "DepartmentId": 5,
+      "DoctorId": 9,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 20,
+      "DepartmentId": 1,
+      "DoctorId": 1,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 21,
+      "DepartmentId": 2,
+      "DoctorId": 3,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 22,
+      "DepartmentId": 3,
+      "DoctorId": 5,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 23,
+      "DepartmentId": 4,
+      "DoctorId": 7,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 24,
+      "DepartmentId": 5,
+      "DoctorId": 9,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 25,
+      "DepartmentId": 1,
+      "DoctorId": 1,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 26,
+      "DepartmentId": 2,
+      "DoctorId": 3,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 27,
+      "DepartmentId": 3,
+      "DoctorId": 5,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 28,
+      "DepartmentId": 4,
+      "DoctorId": 7,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 29,
+      "DepartmentId": 5,
+      "DoctorId": 9,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    },
+    {
+      "PatientId": 30,
+      "DepartmentId": 1,
+      "DoctorId": 1,
+      "Status": "OPEN",
+      "ReasonForVisit": "Synthetic training visit"
+    }
+  ],
+  "MedicalRecords": [
+    {
+      "EncounterId": 1,
+      "DepartmentId": 1,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 001",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 2,
+      "DepartmentId": 2,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 002",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 3,
+      "DepartmentId": 3,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 003",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 4,
+      "DepartmentId": 4,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 004",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 5,
+      "DepartmentId": 5,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 005",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 6,
+      "DepartmentId": 1,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 006",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 7,
+      "DepartmentId": 2,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 007",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 8,
+      "DepartmentId": 3,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 008",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 9,
+      "DepartmentId": 4,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 009",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 10,
+      "DepartmentId": 5,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 010",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 11,
+      "DepartmentId": 1,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 011",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 12,
+      "DepartmentId": 2,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 012",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 13,
+      "DepartmentId": 3,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 013",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 14,
+      "DepartmentId": 4,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 014",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 15,
+      "DepartmentId": 5,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 015",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 16,
+      "DepartmentId": 1,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 016",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 17,
+      "DepartmentId": 2,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 017",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 18,
+      "DepartmentId": 3,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 018",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 19,
+      "DepartmentId": 4,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 019",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 20,
+      "DepartmentId": 5,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 020",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 21,
+      "DepartmentId": 1,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 021",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 22,
+      "DepartmentId": 2,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 022",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 23,
+      "DepartmentId": 3,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 023",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 24,
+      "DepartmentId": 4,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 024",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 25,
+      "DepartmentId": 5,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 025",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 26,
+      "DepartmentId": 1,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 026",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 27,
+      "DepartmentId": 2,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 027",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 28,
+      "DepartmentId": 3,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 028",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 29,
+      "DepartmentId": 4,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 029",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 30,
+      "DepartmentId": 5,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 030",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 31,
+      "DepartmentId": 2,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 031",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 32,
+      "DepartmentId": 3,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 032",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 33,
+      "DepartmentId": 4,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 033",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 34,
+      "DepartmentId": 5,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 034",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 35,
+      "DepartmentId": 1,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 035",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 36,
+      "DepartmentId": 2,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 036",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 37,
+      "DepartmentId": 3,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 037",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 38,
+      "DepartmentId": 4,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 038",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 39,
+      "DepartmentId": 5,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 039",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 40,
+      "DepartmentId": 1,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 040",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 41,
+      "DepartmentId": 2,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 041",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 42,
+      "DepartmentId": 3,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 042",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 43,
+      "DepartmentId": 4,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 043",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 44,
+      "DepartmentId": 5,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 044",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 45,
+      "DepartmentId": 1,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 045",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 46,
+      "DepartmentId": 2,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 046",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 47,
+      "DepartmentId": 3,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 047",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 48,
+      "DepartmentId": 4,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 048",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 49,
+      "DepartmentId": 5,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 049",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 50,
+      "DepartmentId": 1,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 050",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 51,
+      "DepartmentId": 2,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 051",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 52,
+      "DepartmentId": 3,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 052",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 53,
+      "DepartmentId": 4,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 053",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 54,
+      "DepartmentId": 5,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 054",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 55,
+      "DepartmentId": 1,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 055",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 56,
+      "DepartmentId": 2,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 056",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 57,
+      "DepartmentId": 3,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 057",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 58,
+      "DepartmentId": 4,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 058",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 59,
+      "DepartmentId": 5,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 059",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    },
+    {
+      "EncounterId": 60,
+      "DepartmentId": 1,
+      "Symptoms": "Synthetic symptom description",
+      "Diagnosis": "Synthetic diagnosis 060",
+      "TreatmentPlan": "Simulation only - no clinical advice",
+      "Allergies": "Synthetic allergy information",
+      "ClinicalNotes": "Fictional record for security testing"
+    }
+  ],
+  "Prescriptions": [
+    {
+      "RecordId": 1,
+      "DepartmentId": 1,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 2,
+      "DepartmentId": 2,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 3,
+      "DepartmentId": 3,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 4,
+      "DepartmentId": 4,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 5,
+      "DepartmentId": 5,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 6,
+      "DepartmentId": 1,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 7,
+      "DepartmentId": 2,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 8,
+      "DepartmentId": 3,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 9,
+      "DepartmentId": 4,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 10,
+      "DepartmentId": 5,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 11,
+      "DepartmentId": 1,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 12,
+      "DepartmentId": 2,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 13,
+      "DepartmentId": 3,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 14,
+      "DepartmentId": 4,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 15,
+      "DepartmentId": 5,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 16,
+      "DepartmentId": 1,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 17,
+      "DepartmentId": 2,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 18,
+      "DepartmentId": 3,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 19,
+      "DepartmentId": 4,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 20,
+      "DepartmentId": 5,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 21,
+      "DepartmentId": 1,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 22,
+      "DepartmentId": 2,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 23,
+      "DepartmentId": 3,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 24,
+      "DepartmentId": 4,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 25,
+      "DepartmentId": 5,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 26,
+      "DepartmentId": 1,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 27,
+      "DepartmentId": 2,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 28,
+      "DepartmentId": 3,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 29,
+      "DepartmentId": 4,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 30,
+      "DepartmentId": 5,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 31,
+      "DepartmentId": 2,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 32,
+      "DepartmentId": 3,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 33,
+      "DepartmentId": 4,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 34,
+      "DepartmentId": 5,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 35,
+      "DepartmentId": 1,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 36,
+      "DepartmentId": 2,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 37,
+      "DepartmentId": 3,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 38,
+      "DepartmentId": 4,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 39,
+      "DepartmentId": 5,
+      "Instructions": "Simulation only"
+    },
+    {
+      "RecordId": 40,
+      "DepartmentId": 1,
+      "Instructions": "Simulation only"
+    }
+  ],
+  "PrescriptionItems": [
+    {
+      "PrescriptionId": 1,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 1,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 2,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 2,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 3,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 3,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 4,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 4,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 5,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 5,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 6,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 6,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 7,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 7,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 8,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 8,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 9,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 9,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 10,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 10,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 11,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 11,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 12,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 12,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 13,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 13,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 14,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 14,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 15,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 15,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 16,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 16,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 17,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 17,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 18,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 18,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 19,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 19,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 20,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 20,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 21,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 21,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 22,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 22,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 23,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 23,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 24,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 24,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 25,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 25,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 26,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 26,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 27,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 27,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 28,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 28,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 29,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 29,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 30,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 30,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 31,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 31,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 32,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 32,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 33,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 33,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 34,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 34,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 35,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 35,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 36,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 36,
+      "DepartmentId": 2,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 37,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 37,
+      "DepartmentId": 3,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 38,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 38,
+      "DepartmentId": 4,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 39,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 39,
+      "DepartmentId": 5,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 40,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 01",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    },
+    {
+      "PrescriptionId": 40,
+      "DepartmentId": 1,
+      "MedicationName": "Demo Medication 02",
+      "Dosage": "Demo dose",
+      "Frequency": "Demo frequency",
+      "Duration": "Demo duration",
+      "Quantity": 1
+    }
+  ],
+  "LabOrders": [
+    {
+      "EncounterId": 1,
+      "DepartmentId": 1,
+      "TestName": "Demo Test 1",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 2,
+      "DepartmentId": 2,
+      "TestName": "Demo Test 2",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 3,
+      "DepartmentId": 3,
+      "TestName": "Demo Test 3",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 4,
+      "DepartmentId": 4,
+      "TestName": "Demo Test 4",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 5,
+      "DepartmentId": 5,
+      "TestName": "Demo Test 5",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 6,
+      "DepartmentId": 1,
+      "TestName": "Demo Test 1",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 7,
+      "DepartmentId": 2,
+      "TestName": "Demo Test 2",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 8,
+      "DepartmentId": 3,
+      "TestName": "Demo Test 3",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 9,
+      "DepartmentId": 4,
+      "TestName": "Demo Test 4",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 10,
+      "DepartmentId": 5,
+      "TestName": "Demo Test 5",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 11,
+      "DepartmentId": 1,
+      "TestName": "Demo Test 1",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 12,
+      "DepartmentId": 2,
+      "TestName": "Demo Test 2",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 13,
+      "DepartmentId": 3,
+      "TestName": "Demo Test 3",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 14,
+      "DepartmentId": 4,
+      "TestName": "Demo Test 4",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 15,
+      "DepartmentId": 5,
+      "TestName": "Demo Test 5",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 16,
+      "DepartmentId": 1,
+      "TestName": "Demo Test 1",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 17,
+      "DepartmentId": 2,
+      "TestName": "Demo Test 2",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 18,
+      "DepartmentId": 3,
+      "TestName": "Demo Test 3",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 19,
+      "DepartmentId": 4,
+      "TestName": "Demo Test 4",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 20,
+      "DepartmentId": 5,
+      "TestName": "Demo Test 5",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 21,
+      "DepartmentId": 1,
+      "TestName": "Demo Test 1",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 22,
+      "DepartmentId": 2,
+      "TestName": "Demo Test 2",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 23,
+      "DepartmentId": 3,
+      "TestName": "Demo Test 3",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 24,
+      "DepartmentId": 4,
+      "TestName": "Demo Test 4",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 25,
+      "DepartmentId": 5,
+      "TestName": "Demo Test 5",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 26,
+      "DepartmentId": 1,
+      "TestName": "Demo Test 1",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 27,
+      "DepartmentId": 2,
+      "TestName": "Demo Test 2",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 28,
+      "DepartmentId": 3,
+      "TestName": "Demo Test 3",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 29,
+      "DepartmentId": 4,
+      "TestName": "Demo Test 4",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    },
+    {
+      "EncounterId": 30,
+      "DepartmentId": 5,
+      "TestName": "Demo Test 5",
+      "ClinicalIndication": "Synthetic indication",
+      "Status": "COMPLETED"
+    }
+  ],
+  "LabResults": [
+    {
+      "LabOrderId": 1,
+      "DepartmentId": 1,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 2,
+      "DepartmentId": 2,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 3,
+      "DepartmentId": 3,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 4,
+      "DepartmentId": 4,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 5,
+      "DepartmentId": 5,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 6,
+      "DepartmentId": 1,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 7,
+      "DepartmentId": 2,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 8,
+      "DepartmentId": 3,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 9,
+      "DepartmentId": 4,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 10,
+      "DepartmentId": 5,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 11,
+      "DepartmentId": 1,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 12,
+      "DepartmentId": 2,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 13,
+      "DepartmentId": 3,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 14,
+      "DepartmentId": 4,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 15,
+      "DepartmentId": 5,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 16,
+      "DepartmentId": 1,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 17,
+      "DepartmentId": 2,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 18,
+      "DepartmentId": 3,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 19,
+      "DepartmentId": 4,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 20,
+      "DepartmentId": 5,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 21,
+      "DepartmentId": 1,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 22,
+      "DepartmentId": 2,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 23,
+      "DepartmentId": 3,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 24,
+      "DepartmentId": 4,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 25,
+      "DepartmentId": 5,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 26,
+      "DepartmentId": 1,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 27,
+      "DepartmentId": 2,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 28,
+      "DepartmentId": 3,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 29,
+      "DepartmentId": 4,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    },
+    {
+      "LabOrderId": 30,
+      "DepartmentId": 5,
+      "ResultValue": "Synthetic result",
+      "ReferenceRange": "Demo range",
+      "Conclusion": "Fictional result for security testing"
+    }
+  ]
+}
